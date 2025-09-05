@@ -2,7 +2,7 @@ from structures import Node
 
 
 class Queue:
-    def __init__(self, top):
+    def __init__(self, top = None):
         self.top = top
 
     def getTop(self):
@@ -17,13 +17,10 @@ class Queue:
                 return self.getTop
             
     def peek(self):
-        aa
-        bb
-        cc
-        de 
-        dc 
-        das 
-        asd
+        if not self.isEmpty:
+            return self.getTop.get_value()
+        return None;
+             
         
 
     def pull (self):

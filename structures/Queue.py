@@ -18,6 +18,13 @@ class Queue:
             
     def peek(self):
         aa
+        bb
+        cc
+        de 
+        dc 
+        das 
+        asd
+        
 
     def pull (self):
         adad

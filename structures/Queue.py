@@ -15,3 +15,12 @@ class Queue:
             aux = self.top
             while aux is not None:
                 return self.getTop
+            
+    def peek(self):
+        aa
+
+    def pull (self):
+        adad
+    
+    def isEmpty(self):
+        asd

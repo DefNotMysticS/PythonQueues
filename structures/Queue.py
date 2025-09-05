@@ -5,8 +5,6 @@ class Queue:
     def __init__(self, top = None):
         self.top = top
 
-    def getTop(self):
-        return self.top
     
     def push(self, value):
         if self.top is None:
@@ -17,14 +15,16 @@ class Queue:
                 return self.getTop
             
     def peek(self):
-        if not self.isEmpty:
-            return self.getTop.get_value()
+        if not self.isEmpty():
+            return self.top.value
         return None;
              
-        
-
     def pull (self):
-        adad
-    
+        if not self.isEmpty():
+            value = self.top.value
+            self.top = self.top.next
+            return value
+        return None
+            
     def isEmpty(self):
-        asd
+        return self.top is None

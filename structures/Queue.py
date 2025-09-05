@@ -8,9 +8,10 @@ class Queue:
     def getTop(self):
         return self.top
     
-    # def push(self, value):
-    #     if self.top is None:
-    #         self.top = Node(value)
-    #     else:
-    #         aux = self.top
-    #         while aux is not None:
+    def push(self, value):
+        if self.top is None:
+            self.top = Node(value)
+        else:
+            aux = self.top
+            while aux is not None:
+                return self.getTop

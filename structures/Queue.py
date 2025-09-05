@@ -11,8 +11,10 @@ class Queue:
             self.top = Node(value)
         else:
             aux = self.top
-            while aux is not None:
-                return self.getTop
+            while aux.next is not None:
+                aux = aux.next
+            newNode = Node(value)
+            aux.next = newNode
             
     def peek(self):
         if not self.isEmpty():

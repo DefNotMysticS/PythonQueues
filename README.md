@@ -6,7 +6,9 @@ https://www.python.org/downloads/
 
 Linux (Debian/Ubuntu): instala Python y verifica la instalación desde la terminal:
 sudo apt update
+
 sudo apt install python3
+
 python --version
 
 ## 2. Descripción
